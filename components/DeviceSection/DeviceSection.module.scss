@@ -1,0 +1,124 @@
+@import "../../styles/variable.scss";
+.deviceSection {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 130px;
+  padding-bottom: 52px;
+  .logoDiv {
+    text-align: center;
+    .logo {
+      width: 76px;
+      height: 76px;
+      background-size: 76px 76px;
+      background-repeat: no-repeat;
+      background-image: url(/v/apple-tv-plus/aa/images/overview/apple_tv_app_icon__cth1s5qlqpyu_large.png);
+    }
+  }
+  .header {
+    font-size: 72px;
+    line-height: 1.0555555556;
+    font-weight: 700;
+    letter-spacing: -0.012em;
+  }
+  .typography {
+    font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+  }
+  .deviceList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 20px 67px;
+  }
+  .streamDevice {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+  }
+  .listList {
+    list-style: none;
+    line-height: 1.4705882353;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: $blue;
+      font-size: 17px;
+      :hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .streamDeviceList {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 38px;
+    flex-wrap: wrap;
+    text-align: center;
+    .channelIcon {
+      width: 117px;
+      height: 81px;
+      background-size: 117px 81px;
+      background-repeat: no-repeat;
+    }
+  }
+}
+.appleIcon {
+  display: flex;
+  justify-content: center;
+  flex-basis: 33%;
+  margin-bottom: 30px;
+}
+.appleIconWapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 1068px) {
+  .deviceSection {
+    width: 692px;
+  }
+  .header {
+    font-size: 40px !important;
+    line-height: 1.1 !important;
+    font-weight: 700 !important;
+    letter-spacing: 0em !important;
+  }
+  .deviceList {
+    justify-content: space-between !important;
+    margin: 0px 7px 47px !important;
+  }
+  .streamDevice {
+    font-size: 28px !important;
+    line-height: 1.1428571429 !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.007em !important;
+  }
+  .channelIcon {
+    width: 86px !important;
+    height: 63px !important;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .deviceSection {
+    width: 87.5%;
+  }
+  .header {
+    font-size: 28px !important;
+    line-height: 1.2858342857 !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.007em !important;
+  }
+  .deviceList {
+    justify-content: space-around !important;
+    margin: 0px 0px 41px !important;
+  }
+  .channelIcon {
+    width: 71px !important;
+    height: 51px !important;
+  }
+}
