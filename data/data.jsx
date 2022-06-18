@@ -57,6 +57,7 @@ export const QuestionAndAnswerData = [
     question: "Home can I watch it?",
     answer:
       "Watch Apple TV+ on the Apple TV app, which is already on your favorite Apple devices. Just open the app, click or tap Apple TV+, and enjoy the shows and movies. You can also watch Apple TV+ on streaming platforms, popular smart TVs, and AirPlay-enabled TVs with the Apple TV app — or watch online at tv.apple.com.",
+    link: "Learn More",
   },
   {
     id: 3,
@@ -81,6 +82,7 @@ export const QuestionAndAnswerData = [
     question: "Do I need an Apple TV 4K?",
     answer:
       "No, you don’t. While Apple TV 4K — with 4K HDR and Dolby Atmos sound — is the ultimate way to experience Apple TV+, the original shows and movies on Apple TV+ are always available on the Apple TV app on your favorite devices.",
+    link: "See all supported deveices",
   },
   {
     id: 7,

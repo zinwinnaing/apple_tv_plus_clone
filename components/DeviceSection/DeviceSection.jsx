@@ -90,7 +90,7 @@ const DeviceSection = () => {
           <li>
             <a
               href="https://support.apple.com/guide/tvplus/welcome/web"
-              className="icon-wrapper typography-body"
+              className="icon-wrapper typography-boady"
             >
               <span>Set up your device</span>
               <span className={styles.icon}></span>

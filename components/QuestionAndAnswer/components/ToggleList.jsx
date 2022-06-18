@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import styles from "./ToggleList.module.scss";
 
 const ToggleList = ({ data }) => {
-  const [click, IsClick] = useState(false);
   const [toggle, setToggle] = useState(false);
   return (
     <li className={styles.collageList}>
@@ -20,14 +19,22 @@ const ToggleList = ({ data }) => {
           <span className={toggle ? styles.downIcon : styles.icon}></span>
         </button>
       </h3>
-      <p
+      <div
         className={classNames(
           toggle ? styles.toggleHeightDiv : styles.toggleHeight,
           styles.answer
         )}
       >
-        {data.answer}
-      </p>
+        <p>{data.answer}</p>
+
+        {data?.link && (
+          <>
+            <a className={styles.linkTag} href="#">
+              <span>{data?.link}</span>
+            </a>
+          </>
+        )}
+      </div>
     </li>
   );
 };

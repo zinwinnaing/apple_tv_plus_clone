@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { QuestionAndAnswerData } from "../../data/data";
 import Header from "../Header/Header";
 import ToggleList from "./components/ToggleList";
-import styles from "./QuestionAndAnswer.module.scss";
 const QuestionAndAnswer = () => {
   return (
     <div>

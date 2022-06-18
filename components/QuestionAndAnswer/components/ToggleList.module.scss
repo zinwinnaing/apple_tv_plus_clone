@@ -7,15 +7,16 @@
     font-weight: 600;
     letter-spacing: 0.009em;
     width: 100%;
-    color: $black;
+
     font-weight: 600;
-    margin: 0px;
+    // margin: 0px;
     border-bottom: 1px solid #d2d2d7 !important;
 
     .question {
       border: none;
       background-color: #ffffff;
       width: 100%;
+      color: $black;
       font-size: inherit;
       line-height: inherit;
       letter-spacing: inherit;
@@ -52,14 +53,18 @@
   .toggleHeight {
     max-height: 0px;
     overflow: hidden;
-    transition: max-height 0.4s !important;
+    transition: max-height 0.5s !important;
   }
   .toggleHeightDiv {
     overflow: hidden;
     max-height: 600px;
     height: auto;
-    transition: max-height 0.8s !important;
+    transition: max-height 2s !important;
   }
+}
+.linkTag {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 1068px) {
