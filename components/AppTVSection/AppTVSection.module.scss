@@ -1,0 +1,116 @@
+.appSectionDiv {
+  padding: 25px 0 0;
+  .row {
+    .appleTvCol {
+      background-color: #f5f5f7;
+      padding-top: 100px;
+    }
+    .imgDivWapper {
+      width: 100%;
+      margin-top: 50px;
+      .imgDiv {
+        width: 544px;
+        height: 430px;
+        background-size: 544px 530px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/apple-tv-plus/aa/images/overview/apple_tv_4k_remote__igmcbznr1w2u_medium_2x.jpg");
+      }
+      .imgDiv2 {
+        width: 544px;
+        height: 430px;
+        background-size: 544px 400px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/apple-tv-plus/aa/images/overview/air_play__dyuvvwnd5riq_large.jpg");
+      }
+    }
+    .textCol {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //   height: 560px;
+      background-color: #f5f5f7;
+      padding-top: 100px;
+    }
+    .logo {
+      text-align: center;
+      width: 102px;
+      height: 33px;
+      background-size: 102px 33px;
+      background-repeat: no-repeat;
+      background-image: url("https://www.apple.com/v/apple-tv-plus/aa/images/overview/apple_tv_4k_logo__bx1mtrage32a_large.png");
+    }
+    .header {
+      font-size: 40px;
+      line-height: 1.1;
+      font-weight: 700;
+      letter-spacing: 0em;
+    }
+
+    .link {
+      font-size: 19px;
+    }
+    .buyBtn {
+      border: none;
+      outline: none;
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      white-space: nowrap;
+      font-size: 17px;
+      line-height: 1.1764805882;
+      font-weight: 400;
+      letter-spacing: -0.022em;
+      min-width: 28px;
+      padding: 8px 16px;
+      border-radius: 980px;
+      background: #0071e3;
+    }
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .appleTvCol {
+    padding-top: 50px !important;
+  }
+  .header {
+    font-size: 24px !important;
+    line-height: 1.1666666667 !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.009em !important;
+  }
+  .textCol {
+    height: 350px !important;
+  }
+  .imgDivWapper {
+    width: 250px;
+    height: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .appleTvCol {
+    padding-top: 50px !important;
+  }
+  .appSectionDiv {
+    padding: 0 0 15px !important;
+  }
+  .header {
+    font-size: 28px !important;
+    line-height: 1.0714285714 !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.012em !important;
+  }
+
+  .textCol {
+    height: 350px !important;
+  }
+  .imgDivWapper {
+    height: 300px !important;
+  }
+  .imgDiv {
+    width: 299px !important;
+    height: 182px !important;
+    background-size: 299px 182px !important;
+  }
+}

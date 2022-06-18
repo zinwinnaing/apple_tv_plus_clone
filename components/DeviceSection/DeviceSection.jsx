@@ -58,27 +58,27 @@ const DeviceSection = () => {
         <Device
           label="Apple TV"
           src="https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_apple_tv__r2nel0gcigam_large.jpg"
-          delay={100}
+          delay={50}
         />
         <Device
           label="iPhone"
           src="https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_iphone__c914mkstye0y_large.jpg"
-          delay={200}
+          delay={100}
         />
         <Device
           label="iPad"
           src="https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_ipad__cyk6qow5fiqa_large.jpg"
-          delay={300}
+          delay={150}
         />
         <Device
           label="Mac"
           src="https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_mac__b7y797p7oouq_large.jpg"
-          delay={400}
+          delay={200}
         />
         <Device
           label="AirPlay"
           src="https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_airplay__ddkvcm0sxtm6_large.jpg"
-          delay={500}
+          delay={250}
         />
       </div>
       <div className={styles.streamDeviceListSection}>

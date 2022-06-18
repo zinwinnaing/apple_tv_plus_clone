@@ -17,7 +17,20 @@ body {
 a {
   text-decoration: none;
   color: $blue;
+  cursor: pointer;
   :hover {
     text-decoration: underline !important;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .large6 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .small-12 {
+    width: 100% !important;
   }
 }
