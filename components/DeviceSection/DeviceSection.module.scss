@@ -33,36 +33,40 @@
     flex-wrap: wrap;
     margin: 0px 20px 67px;
   }
-  .streamDevice {
-    font-size: 40px;
-    line-height: 1.1;
-    font-weight: 600;
-    letter-spacing: 0em;
-  }
-  .listList {
-    list-style: none;
-    line-height: 1.4705882353;
-    text-align: center;
-    a {
-      text-decoration: none;
-      color: $blue;
-      font-size: 17px;
-      :hover {
-        text-decoration: underline;
+  .streamDeviceListSection {
+    z-index: 1;
+    padding-bottom: 150px;
+    .streamDevice {
+      font-size: 40px;
+      line-height: 1.1;
+      font-weight: 600;
+      letter-spacing: 0em;
+    }
+    .listList {
+      list-style: none;
+      line-height: 1.4705882353;
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: $blue;
+        font-size: 17px;
+        :hover {
+          text-decoration: underline;
+        }
       }
     }
-  }
-  .streamDeviceList {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 38px;
-    flex-wrap: wrap;
-    text-align: center;
-    .channelIcon {
-      width: 117px;
-      height: 81px;
-      background-size: 117px 81px;
-      background-repeat: no-repeat;
+    .streamDeviceList {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 38px;
+      flex-wrap: wrap;
+      text-align: center;
+      .channelIcon {
+        width: 117px;
+        height: 81px;
+        background-size: 117px 81px;
+        background-repeat: no-repeat;
+      }
     }
   }
 }
@@ -78,6 +82,9 @@
   align-items: center;
 }
 @media only screen and (max-width: 1068px) {
+  .streamDeviceListSection {
+    padding-bottom: 30px !important;
+  }
   .deviceSection {
     width: 692px;
   }

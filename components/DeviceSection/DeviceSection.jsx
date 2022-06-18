@@ -1,7 +1,11 @@
 import classNames from "classnames";
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { streamDevice1, streamDevice2 } from "../../data/data";
+import Header from "../Header/Header";
+import QuestionAndAnswer from "../QuestionAndAnswer/QuestionAndAnswer";
 import styles from "./DeviceSection.module.scss";
+
 const DeviceSection = () => {
   const Device = ({ src, label, delay }) => {
     return (
@@ -21,52 +25,7 @@ const DeviceSection = () => {
       </AnimationOnScroll>
     );
   };
-  const streamDevice1 = [
-    {
-      id: 1,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_samsung__er6s8sp9t126_large.jpg",
-    },
-    {
-      id: 2,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_lg__7fxn3l0zf5ua_large.jpg",
-    },
-    {
-      id: 3,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_vizio__crgnno5ezt2e_large.jpg",
-    },
 
-    {
-      id: 4,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_sony__dv28xq4n91ea_large.jpg",
-    },
-    {
-      id: 5,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_xfinity__fohor3dbqrmi_large.jpg",
-    },
-  ];
-  const streamDevice2 = [
-    {
-      id: 6,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_roku__d3kr4gpcimoi_large.jpg",
-    },
-    {
-      id: 7,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_firetv__f6qpefrj0ree_large.jpg",
-    },
-
-    {
-      id: 8,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_xbox__cfelmbxxfoaa_large.jpg",
-    },
-    {
-      id: 9,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_google_tv__e5t4asdc2gsy_large.jpg",
-    },
-    {
-      id: 10,
-      src: "https://www.apple.com/v/apple-tv-plus/aa/images/overview/icon_playstation__djtq2b40wf2a_large.jpg",
-    },
-  ];
   return (
     <div className={styles.deviceSection}>
       <div className={styles.logoDiv}>
@@ -77,10 +36,10 @@ const DeviceSection = () => {
         />
       </div>
       <div className="text-center">
-        <h2 className={styles.header}>
+        <Header>
           Watch Apple&nbsp;TV+ anywhere <br />
           on the Apple&nbsp;TV&nbsp;app.
-        </h2>
+        </Header>
         <p className={styles.typography}>
           Find the Apple&nbsp;TV&nbsp;app on your favorite Apple devices. <br />
           Or&nbsp;watch Apple&nbsp;TV+ online at&nbsp;
@@ -122,7 +81,7 @@ const DeviceSection = () => {
           delay={500}
         />
       </div>
-      <div>
+      <div className={styles.streamDeviceListSection}>
         <p className={classNames("text-center", styles.streamDevice)}>
           See it on your smart&nbsp;TV&nbsp; <br />
           or&nbsp;streaming&nbsp;device.
@@ -191,6 +150,7 @@ const DeviceSection = () => {
           })}
         </div>
       </div>
+      <QuestionAndAnswer />
     </div>
   );
 };
