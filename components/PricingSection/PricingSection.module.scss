@@ -1,0 +1,84 @@
+@import "../../styles/variable.scss";
+
+.pricingSectionWapper {
+  background: $black;
+  padding: 90px 0px;
+}
+.textHeader {
+  font-size: 50px !important;
+  line-height: 1.2858342857 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.007em !important;
+}
+.pricingSection {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  .title {
+    color: $white;
+    margin: 0px;
+  }
+}
+.cardHeader {
+  font-size: 40px;
+}
+.cardSubHeader {
+  font-size: 21px;
+}
+.cardText {
+  font-size: 17px;
+  color: #a1a1a6;
+  margin-top: 9px;
+  margin-bottom: 31px;
+  width: 90%;
+}
+.pricingCardRow {
+  margin: 40px 0px;
+}
+@media only screen and (max-width: 1068px) {
+  .pricingSection {
+    width: 692px !important;
+    padding-left: 30px;
+  }
+
+  .textHeader {
+    font-size: 40px !important;
+    line-height: 1.1 !important;
+    font-weight: 700 !important;
+    letter-spacing: 0em !important;
+  }
+  .cardSubHeader {
+    font-size: 19px !important;
+  }
+  .cardHeader {
+    font-size: 28px !important;
+  }
+  .cardText {
+    font-size: 17px;
+    color: #a1a1a6;
+    margin-top: 5px !important;
+    margin-bottom: 23px !important;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .pricingSection {
+    width: 100% !important;
+    padding-left: 30px;
+  }
+
+  .textHeader {
+    font-size: 28px !important;
+    line-height: 1.2858342857 !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.007em !important;
+  }
+  .cardSubHeader {
+    font-size: 17px !important;
+  }
+  .cardText {
+    font-size: 17px;
+    color: #a1a1a6;
+    margin-top: 3px !important;
+  }
+}
