@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./WhiteButton.module.scss";
-const WhiteButton = ({ label }) => {
+import classNames from "classnames";
+const WhiteButton = ({ label, className }) => {
   return (
     <div>
-      <button className={styles.whitBtn}>{label}</button>
+      <button className={classNames(styles.whitBtn, className)}>{label}</button>
     </div>
   );
 };

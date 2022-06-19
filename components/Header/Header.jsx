@@ -1,7 +1,8 @@
+import classNames from "classnames";
 import React from "react";
 import styles from "./Header.module.scss";
-const Header = ({ children }) => {
-  return <h2 className={styles.header}>{children}</h2>;
+const Header = ({ children, className }) => {
+  return <h2 className={classNames(styles.header, className)}>{children}</h2>;
 };
 
 export default Header;

@@ -1,0 +1,44 @@
+@import "../../styles/variable.scss";
+
+.headerBackground {
+  background-image: url("https://www.apple.com/v/apple-tv-plus/aa/images/overview/hero_startframe__fs1yactuf3qm_large.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  top: 0;
+}
+.headerSectionWapper {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  .title {
+    color: $white;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .headerSectionWapper {
+    width: 692px !important;
+    padding-left: 30px;
+  }
+  .headerBackground {
+    background-position: center center !important;
+    justify-content: left;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .headerSectionWapper {
+    width: 100% !important;
+    padding-left: 30px;
+  }
+  .headerBackground {
+    background-position: center center !important;
+    justify-content: left;
+  }
+}
