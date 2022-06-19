@@ -12,6 +12,7 @@
       height: 76px;
       background-size: 76px 76px;
       background-repeat: no-repeat;
+      // background-image: url(/v/apple-tv-plus/aa/images/overview/apple_tv_app_icon__cth1s5qlqpyu_large.png);
     }
   }
   .header {
@@ -49,7 +50,7 @@
         text-decoration: none;
         color: $blue;
         font-size: 17px;
-        :hover {
+        &:hover {
           text-decoration: underline;
         }
       }

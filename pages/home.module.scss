@@ -1,0 +1,15 @@
+.mobileNav {
+  display: none;
+}
+.mainNav {
+  display: block;
+}
+
+@media only screen and (max-width: 980px) {
+  .mobileNav {
+    display: block;
+  }
+  .mainNav {
+    display: none !important;
+  }
+}

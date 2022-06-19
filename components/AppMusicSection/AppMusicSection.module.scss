@@ -40,7 +40,7 @@
         cursor: pointer;
         color: #fff;
         background-color: #1d1d1f;
-        :hover {
+        &:hover {
           text-decoration: none !important;
         }
       }

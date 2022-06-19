@@ -8,7 +8,7 @@ const NavBar = () => {
     <div className={styles.navBarWapper}>
       <nav className={styles.navBar}>
         <div className="d-flex">
-          <a href="#">
+          <a href="#" className={styles.appleLogoLink}>
             <div className={styles.appleLogo}></div>
           </a>
           <a>

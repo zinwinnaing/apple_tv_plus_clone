@@ -51,10 +51,10 @@
         height: 44px;
         margin: 0px 10px;
       }
-    }
-    a :hover {
-      opacity: 1 !important;
-      text-decoration: none !important;
+      &:hover {
+        opacity: 1 !important;
+        text-decoration: none !important;
+      }
     }
   }
 }
