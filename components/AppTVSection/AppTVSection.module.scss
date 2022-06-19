@@ -80,11 +80,21 @@
     letter-spacing: 0.009em !important;
   }
   .textCol {
-    height: 350px !important;
+    height: 500px !important;
   }
   .imgDivWapper {
-    width: 250px;
+    width: 300px;
     height: 350px !important;
+    .imgDiv {
+      width: 291px !important;
+      height: 287px !important;
+      background-size: 291px 287px !important;
+    }
+    .imgDiv2 {
+      width: 356px !important;
+      height: 268px;
+      background-size: 356px 268px !important;
+    }
   }
 }
 
@@ -103,7 +113,7 @@
   }
 
   .textCol {
-    height: 350px !important;
+    height: 600px !important;
   }
   .imgDivWapper {
     height: 300px !important;
@@ -112,5 +122,26 @@
     width: 299px !important;
     height: 182px !important;
     background-size: 299px 182px !important;
+  }
+  .imgDiv2 {
+    width: 391px !important;
+    height: 263px !important;
+    background-size: 391px 263px !important;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .appSectionDiv {
+    padding: 0px !important;
+  }
+  .imgDiv {
+    width: 190px !important;
+    height: 182px !important;
+    background-size: 190px 182px !important;
+  }
+  .imgDiv2 {
+    width: 190px !important;
+    height: 263px !important;
+    background-size: 190px 263px !important;
   }
 }

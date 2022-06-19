@@ -64,6 +64,9 @@
 }
 
 @media only screen and (max-width: 734px) {
+  .row {
+    padding-top: 50px !important;
+  }
   .appSectionDiv {
     padding: 0 0 15px !important;
   }
@@ -76,14 +79,14 @@
   }
 
   .textCol {
-    height: 350px !important;
+    height: 180px !important;
   }
   .imgDivWapper {
-    height: 300px !important;
+    height: 400px !important;
   }
   .imgDiv {
     width: 299px !important;
-    height: 182px !important;
-    background-size: 299px 182px !important;
+    height: 282px !important;
+    background-size: 299px 282px !important;
   }
 }
